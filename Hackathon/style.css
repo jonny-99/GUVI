@@ -1,0 +1,32 @@
+.Details{
+    background-color: skyblue;
+    color: brown;
+    padding : 0.5rem;
+    margin : 0.5rem;
+    border-radius : 1rem;
+    width: 100%;
+ object-fit : cover;
+}
+
+body{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);}
+
+.heading{
+    font-weight: bold;
+    display:flex;
+    gap: 1rem;
+    color: blueviolet;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+@media (min-width :500px){
+    .Details{
+        display:flex;
+        flex-direction: column;
+        align-content: flex-start;
+        flex-wrap: nowrap;
+
+    }
+}
